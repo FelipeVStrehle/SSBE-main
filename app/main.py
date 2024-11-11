@@ -18,3 +18,4 @@ if __name__ == '__main__':
     Builder.load_string(open(r'app\mainWidget.kv', encoding='utf8').read(), rulesonly=True)
     MainApp().run()
     MainApp().stop()
+    
